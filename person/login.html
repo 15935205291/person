@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>登录</title>   
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!--你自己的样式文件 -->
+        <link href="./myCss/login.css" rel="stylesheet">
+    </head>
+  	<body class="login">
+		<div class="log_box">
+			   <div class="logto_box">
+            <div class="panel panel-default med_bor">
+              <div class="panel-body clearfix">
+                <a href="./index.html"><img src="./myImages/login_logo.png" alt="" width="97"></a>
+                <form>
+                    <ul class="us_bi">
+                        <li>
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="邮箱 / 用户名">
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-group">
+                            <input type="password" class="form-control" placeholder="密码">
+                          </div>
+                        </li>
+                        <li>
+                          <label class="hidden-xs">
+                              <input type="checkbox"
+                              value="1" checked />
+                              记住我
+                          </label>&nbsp;&nbsp;
+                          <a href="#" class="hidden-xs">忘记密码</a>
+                          <button type="submit" class="pull-right btn btn-normal btn-success">登录</button>
+                        </li>
+                    </ul>
+                </form>
+              </div>
+              <div class="panel-footer foot_mia">
+                    还没有账号?&nbsp;&nbsp;
+                    <a href="./register.html">立即注册</a>
+              </div>
+          </div>       
+         </div>
+		</div>    	
+
+
+        <!-- 如果要使用Bootstrap的js插件，必须先调入jQuery -->
+        <script src="js/jquery-1.11.3.js"></script>
+        <!-- 包括所有bootstrap的js插件或者可以根据需要使用的js插件调用　-->
+        <script src="./js/bootstrap.min.js"></script>
+    </body>
+</html>

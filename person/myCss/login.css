@@ -1,0 +1,73 @@
+.login{
+	background:url(../myImages/bg.gif);
+}
+.log_box{
+	position:relative;
+	bottom:20px;
+	padding-top:100px;
+}
+.logto_box{
+	width:425px;
+	margin:0 auto;
+}
+.logto_box .clearfix{
+	padding:50px 60px;
+	text-align:center;
+}
+.us_bi{
+	list-style: none;
+	padding-left:0;
+}
+.us_bi li{
+	text-align:left;
+	margin-top:20px;
+	line-height:30px;
+	color:#666;
+}
+.us_bi li a{
+	color:#666;
+}
+.us_bi button[type="submit"]{
+	background:#91C900;
+	border:0;
+	width:120px;
+	height:40px;
+}
+.foot_mia{
+	text-align:center;
+	background:#FAFAFA;
+	height:70px;
+	line-height:70px;
+	padding:0 60px;
+	color:#666;
+}
+.foot_mia a{
+	color:#4fb1f7;
+}
+@media (max-width: 768px){
+	.log_box{
+		padding-top:0;
+	}
+	.us_bi button[type="submit"]{
+		width:100%;
+
+	}
+	.logto_box{
+		width:100%;
+		
+	}
+	.clearfix{
+		border:0;
+	}
+	.foot_mia{
+		border:0;
+		background:none;
+
+	}
+	.med_bor{
+		border:0;
+		background:none;
+		box-shadow:none;
+		-webkit-box-shadow:none;
+	}
+}

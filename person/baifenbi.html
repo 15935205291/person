@@ -1,0 +1,67 @@
+<!doctype html>
+<meta charset="UTF-8">
+<title></title>
+<style>
+	*{
+		margin:0px;
+		padding:0px;
+		list-style:none;
+	}
+	.header{		
+		height:200px;
+		background:purple;
+	}
+	@media screen and (max-width:900px) and (min-width:600px){
+		.header{
+			background:pink;
+		}		
+	}
+	.container{
+		height:300px;
+		margin-top:30px;		
+	}
+	.ca{
+		height:300px;
+		width:40%;
+		background:yellow;
+		float:left;
+	}
+	@media screen and (max-width:900px) and (min-width:600px){
+		.ca{
+			height:150px;
+			width:100%;
+			background:orange;
+		}
+	}
+	.cb{
+		height:300px;
+		width:60%;
+		background:green;		
+		float:left;
+	}
+	@media screen and (max-width:900px) and (min-width:600px){
+		.cb{
+			height:150px;
+			width:100%;
+			background:cyan;
+		}
+	}
+	.footer{
+		height:200px;
+		background:red;
+		margin-top:50px;
+	}
+	@media screen and (max-width:900px) and (min-width:600px){
+		.footer{
+			background:yellow;
+		}
+	}
+</style>
+<div>
+	<div class="header"></div>
+	<div class="container">
+		<div class="ca"></div>
+		<div class="cb"></div>
+	</div>
+	<div class="footer"></div>
+</div>

@@ -1,0 +1,88 @@
+.register{
+	background:url(../myImages/bg.gif);
+}
+.reg_box{
+	margin:100px auto 40px;
+	width:721px;
+	padding:50px 0;
+	border-radius:3px;
+	text-align:center;
+	border:1px solid ##e6e6e6;
+	background:#fff;
+}
+.reg_box h1{
+	text-align:center;
+}
+.reg_box h3{
+	font-size:24px;
+	color:#666;
+	margin-top:45px;
+}
+.reg1-fr{
+	width:410px;
+	margin:0 auto;
+}
+.reg1-fr ul{
+	list-style: none;
+	padding:0;
+}
+.reg1-fr input{
+	line-height:40px;
+	height:40px;
+}
+.reg1-fr li{
+	margin-top:20px;
+}
+.for_p{
+	margin-bottom:5px;
+}
+.reg1-fr li p{
+	color:#999;
+	font-size:12px;
+}
+.hixs_hr{
+	position:relative;
+}
+.hixs_hr hr{
+	margin:30px 0;
+	border:0;
+	border-top:1px solid #eee;
+}
+
+.hixs_hr a{
+	position:absolute;
+	width:90px;
+	background:#fff;
+	color:#66b7ff;
+	top:-10px;
+	left:39%;
+}
+.last_li{
+	text-align:left;
+	color:#666;
+}
+.reg1-fr .last_li input{
+	height:auto;
+	line-height:auto;
+}
+.last_li a{
+	color:#4FBAF9;
+}
+.reg1-fr li button[type="submit"]{
+	width:100%;
+	background:#9ED70B;
+	border:0;
+	height:38px;
+	line-height:30px;
+	color:#fff;
+}
+@media (max-width: 768px){
+	.reg_box{
+		width:100%;
+		background: none;
+		padding:0;
+	}
+	.reg1-fr{
+		width:100%;
+	}
+}

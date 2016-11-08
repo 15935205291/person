@@ -1,0 +1,465 @@
+body{
+	font-family: 微软雅黑;
+}
+/*header*/
+.header{
+	background:#343C49 url('../myImages/nav-bg.jpg') no-repeat center;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color:#fff;
+}
+.ha_bao{
+	float:right;
+}
+.logo{
+	margin-bottom:0;
+	border:0;
+	background:transparent;
+}
+.logo img{
+	margin:5px;
+}
+.login{
+	margin-right:60px;
+	background:#80C5F7;
+	border:1px solid #80C5F7;
+}
+.login a{
+	color:#fff;
+}
+/*banner*/
+.banner{
+	display:table;
+	width:100%;
+	background:#343C49 url('../myImages/banner_bg.jpg') no-repeat center;
+	color:#666;
+}
+.banner .ban_one{
+	clear:both;
+	height:450px;
+}
+.banner .section img{
+	margin-top:150px;
+}
+.banner .ancestry{
+	position: relative;
+	width:450px;
+	height:450px;
+	top:50%;
+	left:50%;
+	margin-left:-225px;
+	margin-top:-225px;
+}
+.banner .square{
+	position: absolute;
+	left:0;
+	top:350px;
+	width:458px;
+	height:146px;
+	background-image: url(../myImages/ancestry-square.png);
+}
+.banner .monkey{
+	position:absolute;
+	z-index:2;
+	left:60px;
+	top:-15px;
+	width:454px;
+	height:432px;
+	background-image: url(../myImages/ancestry-monkey.png@2x.png) ;
+	background-size:454px auto;
+	background-repeat:no-repeat;
+}
+.list2{
+	background-position:0 -432px;
+}
+.list3{
+	background-position:0 -864px;
+}
+.list4{
+	background-position:0 -1296px;
+}
+.list5{
+	background-position:0 -1728px;
+}
+.list6{
+	background-position:0 -2160px;
+}
+.list7{
+	background-position: 0 -2592px;
+}
+.ancestry .list7.showImg{
+	z-index:1;
+	left:150px;
+	transition:all 0.8s linear;
+}
+.ancestry .hideImg{
+	opacity:0;
+	transition:opacity 0.8s ease-in-out;
+}
+.ancestry .showImg{
+	opacity:1;
+	transition:opacity 0.8s linear;
+}
+.banner .square:nth-child(2){
+	background-position: -508px 0px;
+}
+.banner .square:nth-child(3){
+	background-position: -1016px 0px;
+}
+.section{
+	text-align:center;
+	margin-bottom:60px;
+}
+.section h2{
+	font-size:18px;
+	margin:20px 0 50px
+}
+.section h2 b{
+	color:#4FB1F7;
+
+}
+.section img{
+	margin:0 auto;
+
+}
+.gr_bl{
+	margin:0 50px;
+}
+.color_bl{
+	float:left;
+	border:1px solid #80C5F7;
+	font-size:40px;
+	text-align:center;
+	width:35%;
+	color:#fff;
+}
+.bt_gm{
+	border-radius:0 2px 2px 0;
+	height:59px;
+	font-size:20px;
+	background:#80C5F7;
+	line-height:39px;
+	width:65%;
+}
+/*content*/
+.content{
+	background: #f2f4f5;
+	overflow: hidden;
+}
+
+.content h2{
+	font-size:80px;
+	margin:120px 0 20px;
+	color:#6fbef7;
+	line-height: 80px;
+}
+.content h3{
+	font-size:35px;
+	line-height:35px;
+	color:#505e73;
+}
+.content b{
+	color:#808080;
+}
+.content p{
+	margin:30px 0;
+}
+.content a{
+	background:#6FBEF7;
+	border:0;
+	color:#fff;
+}
+
+.content img{
+	margin-top:200px;
+	transition:margin 1s;	
+}
+.content .animate{
+	margin-top:220px;
+}
+.row{
+	margin-right:0;
+}
+.con_right{
+	float:right;
+	padding-right: 60px;
+}
+.con_left{
+	float:left;
+}
+.content .color_gr{
+	font-weight: bold;
+	font-size:60px;
+	color:#8ddcde;
+}
+.content .bu_co{
+	background:#8ddcde;
+}
+.bg_Im{
+	background:url(../myImages/testing-process-bg.jpg);
+	padding-left:0;
+}
+.bg_Im img{
+	margin-left:-200px;
+	transition:margin 1s; 
+}
+.bg_Im .an_2{
+	margin-top:0;
+	margin-left:-225px;  
+}
+.cont{
+	background:#f2f4f5;
+}
+.bi_ku{	
+	text-align:center;
+	padding:20px 0px;
+}
+ .bi_ku h3{
+	font:30px 微软雅黑;
+}
+ .bi_ku a{
+ 	display:block;
+ 	
+ 	width:120px;
+ 	margin:0 auto;
+ 	margin-bottom:60px;
+ }
+.item{
+	margin:20px 0px 40px;
+	padding:20px 70px 20px 20px;
+	background:#fff;
+	border-radius:2px;
+	text-align:left;
+	min-width: 331px;
+}
+.item img{
+	width: 80px;
+	float:left;
+	margin-right:10px;
+}
+.item h4{
+	font-size:15px;
+}
+.item p{
+	font-size:12px;
+	color:#9999A8;
+}
+.item.animate{
+	
+	transition:margin 1s;
+}
+.bg_sh .img{
+	padding:80px 0px 50px 0;
+
+}
+.bg_sh{
+	padding:0 0 50px;
+	clear:both;
+	background:#fff;
+}
+.bg_sh .price{
+	display:block;
+	margin:90px 0 25px 40px;
+	font-size:36px;
+	font-weight:normal;
+	color:#666;
+}
+.bg_sh .fon_co{
+	width:240px;
+	line-height:30px;
+	height:50px;
+}
+.sidebar{
+	margin-top:80px;
+	border-left:1px solid #e6e6e6;
+	padding:10px 0 10px 50px;
+}
+.sidebar p{
+	font-size:20px;
+	color:#646464;
+}
+.sidebar .btn-success,.sidebar .btn-danger{
+	border:0;
+	font-size:20px;
+	display:block;
+	width:280px;
+	line-height:40px;
+	margin-top:25px;
+	background-color:#91c900;
+	border-radius:2px
+}
+.sidebar .btn-danger{
+	background: #f26690;
+}
+/*footer*/
+.footer{
+	padding:50px 0;
+	background:#363f4d;
+}
+.footer dl{
+	margin-left:50px;
+	margin-bottom: 20px;
+	float:left;
+}
+.footer dl dt{
+	color:#fff;
+	line-height:26px;
+	font-weight:700;
+}
+.footer dl dd a{
+	color:#6d8299;
+}
+.footer dl.last dt{
+	width:230px;
+	margin-bottom:20px;
+	padding-bottom:20px;
+	border-bottom:1px solid #485666;
+}
+.footer dl.last dd{
+	font-size:16px;
+	color:#fff;
+}
+.copyright{
+	height:70px;
+	line-height:70px;
+	background:#2a313d;
+	text-align:center;
+	color:#6d8299;
+	font-size:12px;
+}
+/*媒体*/
+@media (max-width: 1024px){
+	.container{
+		width:100%;
+		padding:0;
+	}
+}
+@media (max-width: 991px){
+	.banner .section img{
+		margin-top:0;
+	}
+
+	.sidebar{
+		margin:0;
+		text-align:center;
+		padding-right:40px;
+	}
+	.sidebar .btn-success, .sidebar .btn-danger{
+		margin:0 auto;
+		margin-bottom: 12px;
+		width:100%;
+	}
+	.bg_sh .fon_co{
+		width:100%;
+	}
+	.pad_but{
+		margin-left:30px;
+		margin-right:28px;
+	}
+	.price{
+		text-align:center;
+	}
+
+}
+@media (max-width: 768px){
+	.banner .monkey{
+		width:180px;
+		height:216px;
+		background-size:227px auto;
+	}
+	.list2{
+	background-position:0 -216px;
+	}
+	.list3{
+		background-position:0 -432px;
+	}
+	.list4{
+		background-position:0 -648px;
+	}
+	.list5{
+		background-position:0 -864px;
+	}
+	.list6{
+		background-position:0 -1080px;
+	}
+	.list7{
+		background-position: 0 -1296px;
+	}
+	.banner .square{
+		position: absolute;
+		left:20px;
+		top:166px;
+		width:229px;
+		height:73px;
+		background-size:737px auto;
+
+	}
+	.banner .square:nth-child(2){
+		background-position: -253px 0px;
+	}
+	.banner .square:nth-child(3){
+		background-position: -1243px 0px;
+	}
+	.banner .ancestry{
+		width:340px;
+		height:258px;
+		margin-left:-170px;
+		margin-top:-105px;
+	}
+	.banner .ban_one{
+		height:224px;
+	}
+	.content img{
+		margin-top:0px;
+		transition:margin 1s;	
+	}
+	.content .animate{
+		margin-top: 20px;
+		width:100%;
+	}
+
+	.bg_sh .price{
+		margin:0;
+		text-align:center;
+	}
+	.bg_sh .img{
+		padding:80px 0 0 0;
+		text-align:center;
+	}
+}
+@media (max-width: 500px){
+	.color_bl{
+		font-size:20px;
+		height:40px;
+		line-height:40px;
+	}
+	.bt_gm{
+		height:40px;
+		font-size:15px;
+		padding:0;
+	}
+	.bi_ku h3 {
+		font-size:23px;
+	}
+
+	.img img{
+		width:100%;
+
+	}	
+	.cont .img{
+		padding:40px;
+	}
+	.bg_sh .price{
+		margin:0;
+		text-align:center;
+	}
+	.bg_sh{
+		text-align:center;
+	}
+	.bg_sh .fon_co{
+		line-height:50px;
+	}
+	
+}
+
+

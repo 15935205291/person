@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>注册</title>   
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!--你自己的样式文件 -->
+        <link href="./myCss/register.css" rel="stylesheet">
+    </head>
+  	<body class="register">
+        <div class="reg_box">
+            <h1><a href="./index.html"><img src="./myImages/login_logo.png" width="95" alt=""></a></h1>
+            <h3 class="hidden-xs">注册新用户</h3>
+            <div class="reg1-fr">
+              <ul>
+                <form>
+                   <li>
+                    <div class="form-group">
+                     
+                      <input type="text" class="form-control" id="exampleInputEmail1" placeholder="用户名">
+                    </div>
+                  </li>
+                  <li>
+                    <div class="form-group for_p">
+                      <input type="email" class="form-control" placeholder="邮箱">
+                    </div>
+                    <p>用Gmail，Hotmail等邮箱可能会导致收不到验证邮件，建议使用QQ或者163等国内邮箱服务</p>
+                  </li>
+                  <li>
+                     <div class="form-group for_p">
+                      <input type="password" class="form-control" placeholder="密码">
+                     </div>
+                  </li>
+                  <li class="hidden-xs hixs_hr">
+                      <hr>
+                      <a href="#">更多资料</a>
+                  </li>
+                  <li class="last_li">
+                    <label>
+                      <input type="checkbox" checked />我同意
+                    </label>&nbsp;
+                    <a href="#">用户协议</a>
+                    <a href="./login.html" class="pull-right">已有账号?</a>
+                  </li>
+                  <li>
+                    <button type="submit" class="btn btn-default">注册</button>
+                  </li>
+                </form>
+              </ul>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- 如果要使用Bootstrap的js插件，必须先调入jQuery -->
+        <script src="js/jquery-1.11.3.js"></script>
+        <!-- 包括所有bootstrap的js插件或者可以根据需要使用的js插件调用　-->
+        <script src="./js/bootstrap.min.js"></script>
+    </body>
+</html>
